@@ -1,13 +1,14 @@
 import {
-    MatFormFieldModule,
-    MatAutocompleteModule,
-    MatIconModule,
-    MatInputModule,
-    MatSnackBarModule,
+  MatIconModule,
+  MatInputModule,
+  MatSnackBarModule,
+  MatFormFieldModule,
+  MatAutocompleteModule,
+
   } from '@angular/material';
   import { NgModule } from '@angular/core';
   import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-  
+
   @NgModule({
     imports: [
       BrowserAnimationsModule,
@@ -31,4 +32,3 @@ import {
     ]
   })
   export class MaterialModule {}
-  
